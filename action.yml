@@ -1,0 +1,5 @@
+name: "Hello World Action"
+description: "A simple hello world action"
+runs:
+  using: "node12"
+  main: "index.js"
