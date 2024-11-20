@@ -6,5 +6,8 @@ jobs:
   print-hello-world:
     runs-on: ubuntu-latest
     steps:
-      - name: Print Hello World
-        run: echo "hello world"
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Hello World Action
+        uses: ./
